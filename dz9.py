@@ -1,25 +1,9 @@
-random_list = ['re', 'fd', 'eee', 'dvdvdd', 'popopopo']
-# rtr = [43]
-random_list.append('https://soundtracks.pro/movie/oblasti-tmy')
-# print(len(random_list))
-# print(add_list)
-random_list.sort()
+new_list = [7, 4.7, 1, 1.1, -2]
+multiplication_list = []
 
-# print(rtr)
-# print(random_list)
-# print(sorty_list)
+for number in new_list:
+    doubled_number = number * 2
+    string_number = str(doubled_number)
+    multiplication_list.append(string_number)
 
-# tr = 'sd dfd df  dfd'
-# d = [tr]
-# o = [random_list]
-# print(tr.split())
-# print(d)
-# print(o)
-
-for el in random_list:
-    print(el)
-# print(random_list.index(9))
-# print(random_list.index(6.6))
-# print(random_list.index(44))
-
-
+print(multiplication_list)
